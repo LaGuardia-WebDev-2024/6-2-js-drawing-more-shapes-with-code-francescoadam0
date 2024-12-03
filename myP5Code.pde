@@ -11,10 +11,14 @@ void draw(){
   strokeWeight(3);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Unit Goes Here
-  ellipse(200, 300, 150, 150);
-  ellipse(200, 200, 100, 100);
-  ellipse(200, 120, 75, 75);
-  
+  rect(87, 45, 250, 300);//face 
+  rect(130, 250, 182, 60); // mouth
+  rect(150, 150, 30, 30); // left eye
+  rect(250,150,30,30); // right eye
+  rect(190,345,50,50); // neck
+// unibrow
+line(140,129,270,129);
+
 
 }
 
